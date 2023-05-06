@@ -1,0 +1,10 @@
+
+*{
+    outline: 1px red solid;
+}
+.footer{
+    background-color: blue;
+    width: 100px;
+    height: 200px;
+    
+}
