@@ -1,6 +1,5 @@
 nav {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-    color: #000000;
+  background: linear-gradient(90deg, rgba(77,42,12,1) 0%, rgba(158,75,8,1) 50%, rgba(255,145,57,1) 100%);
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -8,12 +7,14 @@ nav {
   }
   
   nav a {
-    color: #ff0000;
-  font-size: 25px;
+    color: #241717;
+    font-size: 25px;
     text-decoration: none;
     margin-right: 1rem;
   }
   
   nav a:hover {
-    text-decoration: underline;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
   }
+  
